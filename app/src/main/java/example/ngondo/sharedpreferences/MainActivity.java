@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-        * Now let's capture data saved on bundle using the key "NOTES" whenever android shuts down
+    * * Now let's capture data saved on bundle using the key "NOTES" whenever android shuts down
         * the app.
         * */
     @Override
@@ -108,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
     //Method called when user stops the app
     @Override
     protected void onStop() {
-
         saveSettings();
         super.onStop();
     }
