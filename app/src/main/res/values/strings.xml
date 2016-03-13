@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SharedPreferences</string>
+    <string name="notes">Notes</string>
+    <string name="enter">Enter Notes</string>
+    <string name="set">Settings</string>
 </resources>
