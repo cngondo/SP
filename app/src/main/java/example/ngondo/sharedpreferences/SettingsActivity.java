@@ -1,7 +1,16 @@
 package example.ngondo.sharedpreferences;
 
-/**
- * Created by ngondo on 3/14/16.
- */
-public class SettingsActivity {
+import android.preference.PreferenceActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class SettingsActivity extends PreferenceActivity {
+
+    @SuppressWarnings("deprecation")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        addPreferencesFromResource(R.xml.preferences);
+    }
 }
